@@ -1,13 +1,21 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Projeto de Indexação de Documentos
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Este projeto consiste na implementação de um programa que simula um algoritmo de indexação de documentos semelhante ao Google. O objetivo é permitir a identificação de ocorrências de termos em arquivos de texto (formato TXT) e facilitar a busca por esses termos nos documentos anexados.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Funcionalidades
+O programa desenvolvido possui dois módulos principais:
+
+#### Módulo de Gerenciamento de Arquivos:
+Permite anexar arquivos de texto (formato TXT) ao sistema para posterior indexação.
+
+#### Módulo de Buscas:
+Oferece funcionalidades de busca nos arquivos anexados, permitindo encontrar ocorrências de termos específicos.
+Observação: Este projeto não aborda a análise de significados ou a busca por sinônimos nos documentos.
+
+## Habilidades Exercitadas
+Ao trabalhar neste projeto, foram exercitadas as seguintes habilidades:
+
+- Manipulação de Pilhas
+- Manipulação de Deque
+- Manipulação de Nós e Listas Ligadas
+- Manipulação de Listas Duplamente Ligadas
